@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<div id="game-container">
+    <h1>Snake Game</h1>
+    <div id="main">
+        <div id="stage">
+            <div id="snake">
+                <div></div>
+            </div>
+
+            <div id="food">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div id="info">
+            <div>SCORE:<span id="score">0</span></div>
+            <div>LEVEL:<span id="level">0</span></div>
+        </div>
+
+        <div id="instructions">
+            <p>Use the arrow keys to move the snake!</p>
+            <button id="restart">Restart Game</button>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
